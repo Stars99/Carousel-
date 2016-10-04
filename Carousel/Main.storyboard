@@ -74,7 +74,7 @@
             <objects>
                 <viewController id="kcS-po-83M" customClass="LoginViewControllerViewController" customModule="Carousel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOK-2Y-XxH">
-                        <rect key="frame" x="0.0" y="0.0" width="386" height="1400"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sign_in_nav_bar" id="mgv-Kj-5kE">
@@ -82,11 +82,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QuX-z0-qWS" userLabel="BackButton">
-                                <frame key="frameInset" minY="7" width="116" height="112"/>
+                                <frame key="frameInset" minX="28" minY="32" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="didPressBackBtn:" destination="kcS-po-83M" eventType="touchUpInside" id="6Y2-bH-cdX"/>
-                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="9Hl-dd-VQT">
                                 <frame key="frameInset" maxY="64"/>
@@ -129,22 +126,22 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" misplaced="YES" id="Y7Y-tc-CG5" userLabel="buttonParentView">
-                                        <rect key="frame" x="0.0" y="320" width="386" height="178"/>
+                                        <rect key="frame" x="0.0" y="315" width="386" height="183"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sign_in_buttons" id="gAG-x8-org">
-                                                <frame key="frameInset" minX="49" minY="40" width="290" height="47"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sign_in_buttons" id="gAG-x8-org">
+                                                <frame key="frameInset" minX="-9" minY="-9" width="395" height="184"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ujd-Cs-YeU" userLabel="signInButton">
-                                                <frame key="frameInset" minY="8" width="386" height="123"/>
+                                                <frame key="frameInset" minX="16" minY="-9" width="347" height="144"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="didPressSignInButton:" destination="kcS-po-83M" eventType="touchUpInside" id="WwG-fc-C3D"/>
                                                 </connections>
                                             </button>
                                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" id="A27-9e-gRe">
-                                                <frame key="frameInset" minX="273" minY="29" width="37" height="37"/>
+                                                <frame key="frameInset" minX="273" minY="40" width="37" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </activityIndicatorView>
                                         </subviews>
@@ -237,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAB-ap-WFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2982.5" y="-169"/>
+            <point key="canvasLocation" x="3480" y="-172"/>
         </scene>
         <!--Image Time Line View Controller-->
         <scene sceneID="yae-30-eKR">
@@ -322,8 +319,8 @@
         <scene sceneID="d0j-tA-5dY">
             <objects>
                 <viewController id="prz-hc-Ak9" customClass="SettingViewController" customModule="Carousel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ty6-vm-ebn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="ty6-vm-ebn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="889"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="settings_nav" id="bbu-CG-NKI">
@@ -338,6 +335,13 @@
                                         <rect key="frame" x="1" y="0.0" width="375" height="814"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lt7-Ef-0YK">
+                                        <rect key="frame" x="61" y="743" width="250" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="opO-JW-T6c" kind="modal" id="r8A-i5-NZK"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9vj-ns-Hak">
@@ -349,6 +353,8 @@
                             </button>
                         </subviews>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="889"/>
                     <connections>
                         <outlet property="settingImageView" destination="JPM-2n-kfW" id="pgz-ib-PqE"/>
                         <outlet property="settingScrollView" destination="h0V-Qu-xWM" id="5M0-57-Lo0"/>
@@ -357,6 +363,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggl-Yr-mnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4848.5" y="666.5"/>
+        </scene>
+        <!--Log Out View Controller-->
+        <scene sceneID="b2E-rQ-brh">
+            <objects>
+                <viewController id="opO-JW-T6c" customClass="LogOutViewController" customModule="Carousel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zws-Ay-tzv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logout" id="7mX-Ms-k8L">
+                                <frame key="frameInset" minY="402" width="375" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g3Y-FD-7Ya" userLabel="cancelButton">
+                                <frame key="frameInset" minX="16" minY="627" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="didPressLogOutButton:" destination="opO-JW-T6c" eventType="touchUpInside" id="N2G-Ow-S2m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8tL-X2-564" userLabel="logOutButton">
+                                <frame key="frameInset" minY="563" width="359" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="kcS-po-83M" kind="modal" id="fnP-te-wDq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="edW-WU-Qjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4871.5" y="1758.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pDl-Un-90O">
@@ -392,7 +432,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sGd-c0-gd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4261.5" y="-169.5"/>
+            <point key="canvasLocation" x="4451" y="-164"/>
         </scene>
     </scenes>
     <resources>
@@ -409,6 +449,7 @@
         <image name="intro_tile6" width="76" height="75"/>
         <image name="login_form" width="320" height="113"/>
         <image name="login_text" width="320" height="70"/>
+        <image name="logout" width="479" height="356"/>
         <image name="scrubber" width="320" height="36"/>
         <image name="settings" width="320" height="695"/>
         <image name="settings_nav" width="320" height="64"/>
@@ -424,4 +465,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="fnP-te-wDq"/>
+    </inferredMetricsTieBreakers>
 </document>

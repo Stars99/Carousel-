@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2BA94E1DA359B00014FC0D /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BA94D1DA359B00014FC0D /* LogOutViewController.swift */; };
+		3C2BA9501DA35BAE0014FC0D /* Carosal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BA94F1DA35BAE0014FC0D /* Carosal.gif */; };
 		3C425B311D9B7E8A00CE7ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425B301D9B7E8A00CE7ABA /* AppDelegate.swift */; };
 		3C425B381D9B7E8A00CE7ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C425B371D9B7E8A00CE7ABA /* Assets.xcassets */; };
 		3C425B3B1D9B7E8A00CE7ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C425B391D9B7E8A00CE7ABA /* LaunchScreen.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2BA94D1DA359B00014FC0D /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		3C2BA94F1DA35BAE0014FC0D /* Carosal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Carosal.gif; sourceTree = "<group>"; };
 		3C425B2D1D9B7E8900CE7ABA /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C425B301D9B7E8A00CE7ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C425B371D9B7E8A00CE7ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 		3C425B2F1D9B7E8900CE7ABA /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				3C2BA94F1DA35BAE0014FC0D /* Carosal.gif */,
 				3C754B3A1DA2EB2900B12B82 /* Main.storyboard */,
 				3C754B341DA190E000B12B82 /* Common.swift */,
 				3C425B301D9B7E8A00CE7ABA /* AppDelegate.swift */,
@@ -121,6 +126,7 @@
 				3C754B381DA2EA3A00B12B82 /* ImageTimeLineViewController.swift */,
 				3C754B3C1DA310D500B12B82 /* ConversationViewController.swift */,
 				3C754B3E1DA3112900B12B82 /* SettingViewController.swift */,
+				3C2BA94D1DA359B00014FC0D /* LogOutViewController.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2BA9501DA35BAE0014FC0D /* Carosal.gif in Resources */,
 				3C754B3B1DA2EB2900B12B82 /* Main.storyboard in Resources */,
 				3C425B3B1D9B7E8A00CE7ABA /* LaunchScreen.storyboard in Resources */,
 				3C425B381D9B7E8A00CE7ABA /* Assets.xcassets in Resources */,
@@ -280,6 +287,7 @@
 				3C754B3D1DA310D500B12B82 /* ConversationViewController.swift in Sources */,
 				3C425B631D9B8C8800CE7ABA /* LoginViewControllerViewController.swift in Sources */,
 				3C425B5F1D9B7EDC00CE7ABA /* IntroViewController.swift in Sources */,
+				3C2BA94E1DA359B00014FC0D /* LogOutViewController.swift in Sources */,
 				3C754B3F1DA3112900B12B82 /* SettingViewController.swift in Sources */,
 				3C754B351DA190E000B12B82 /* Common.swift in Sources */,
 				3C754B391DA2EA3A00B12B82 /* ImageTimeLineViewController.swift in Sources */,
